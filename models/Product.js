@@ -24,7 +24,7 @@ Product.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
      validate: {
-      is:/^(0(?!\.00)|[1-9]\d{0,6})\.\d{2}$/
+      isDecimal:true
        }
     },
     stock: {
