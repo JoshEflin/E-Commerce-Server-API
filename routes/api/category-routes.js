@@ -55,12 +55,12 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   try {
-    const updateCat = await Category.destroy({
+    const delCat = await Category.destroy({
       // delete a category by its `id` value
       where: {id :req.params.id},
       include:[{model: Product}]
       });
-      res.status(200).json(updateCat)
+      res.status(200).json(delCat)
     }catch(err){
       res.status(500).json(err);
     }
