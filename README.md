@@ -10,6 +10,7 @@ This repository contains code for a theoretical E-Commerce website.  The purpose
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Credits](#Credits)
 - [Tests](#tests)
 - [Questions](#Questions)
 
@@ -26,7 +27,9 @@ This repository contains code for a theoretical E-Commerce website.  The purpose
 
  ## Contributing
  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) Contributions adhere to the Contributor Covenant, for more information go to https://www.contributor-covenant.org/
-
+ ## Credits
+ Mia Ciasullo (Classmate)
+ Rene Trevino (Tutor)
  ## Tests
  No tests were written
 
