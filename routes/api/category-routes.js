@@ -47,6 +47,7 @@ router.put('/:id', async (req, res) => {
       where: {id :req.params.id},
       include:[{model: Product}]
       });
+      console.log(updateCat)
       res.status(200).json(updateCat)
     }catch(err){
       res.status(500).json(err);
